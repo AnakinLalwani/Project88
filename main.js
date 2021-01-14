@@ -56,7 +56,6 @@ function new_web_update(get_image) {
         web_obj.set({top:hero_y, left:hero_x});
         canvas.add(web_obj);
         uploadBackground();
-        hero_update();
     });
 }
 window.addEventListener("keydown", mykeydown);
