@@ -108,13 +108,11 @@ function mykeydown(e){
     if (keypressed=='85') {
         upgraded = true;
         canvas.remove(hero_obj);
-        hero_update();
         console.log("upgraded spiderman");
     }
     if (keypressed=='68') {
         upgraded = false;
         canvas.remove(hero_obj);
-        hero_update();
         console.log("demoted spiderman");
     }
     
